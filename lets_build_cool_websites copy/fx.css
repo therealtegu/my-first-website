@@ -1,0 +1,23 @@
+div{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+div:hover{
+    background-color: yellow;  /* Changes to yellow when mouse hovers */
+    transform: scale(1.1);     /* Makes the div 10% bigger */
+    transition: all 0.3s;      /* Makes the change smooth over 0.3 seconds */
+}
+  
+a{
+    color: rgb(219, 93, 93);
+    padding: 10px 15px;
+    text-decoration: none;  /* This removes the underline */
+    margin-right: 10px;
+}
+  
+a:hover{
+    background-color: #555;
+    border-radius: 5px;  /* Makes corners rounded */
+}

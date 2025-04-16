@@ -1,0 +1,73 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+#intro{
+    width: 635px;
+    height: 200px;
+    background-color: rgb(122, 120, 109);
+    float: left;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #888888;
+}
+#starters{
+    color: rgb(255,255,255);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#second{
+    width: 635px;
+    height: 200px;
+    background-color: rgb(122, 120, 109);
+    float: left;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #888888;
+}
+#mainweb {  
+    width: 1250px;
+    height: 100px;
+    background-color: rgb(122, 120, 109);
+    float: left;
+    margin: 30px; 
+    padding: 40px;
+    border-radius: 5px;  /* Makes corners rounded */
+    box-shadow: 5px 5px 10px #888888;  /* Cool shadow effect! */
+}
+#socials{
+    width: 1250px;
+    height: 100px;
+    background-color: rgb(122, 120, 109);
+    float: left;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 5px;  /* Makes corners rounded */
+    box-shadow: 5px 5px 10px #888888;  /* Cool shadow effect! */
+}
+#listings{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div{
+    transform: scale(1.00);
+    transition: 0.3s;
+}
+div:hover {
+    background-color: rgb(207, 207, 85);  /* Changes to yellow when mouse hovers */
+    transform: scale(1.01);     /* Makes the div 10% bigger */
+    transition: all 0.3s;      /* Makes the change smooth over 0.3 seconds */
+}  
+a{
+    color: rgb(255,255,255);
+    padding: 10px 15px;
+    text-decoration: none;  /* This removes the underline */
+    margin-right: 10px;
+} 
+a:hover{
+    background-color: #555;
+    border-radius: 5px;  /* Makes corners rounded */
+}
+
+  
